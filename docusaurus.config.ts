@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Gvinci Tecnologia', // Usually your GitHub org/user name.
-  projectName: 'gvincihelp', // Usually your repo name.
+  organizationName: 'ssitec', // Usually your GitHub org/user name.
+  projectName: 'gvinci-help', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
