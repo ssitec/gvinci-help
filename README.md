@@ -39,3 +39,17 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Deploy
+cd ..
+yarn build
+
+```bash
+cd build
+git init
+git add .
+git commit -m "Deploy site"
+git branch -M gh-pages
+git remote add origin https://github.com/ssitec/gvinci-help.git
+git push -u origin gh-pages --force
+```
